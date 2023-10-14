@@ -1,0 +1,14 @@
+<div class="small-card">
+    <img src="{{ Photo }}" alt="small card image">
+    <div class="small_card_body">
+        <div class="text_small_card">
+        <h3><a [routerLink]="['content', Id]">{{ title }}</a></h3>
+        <p><a [routerLink]="['content', Id]">{{ description}}</a></p>
+        </div>
+        <div class="tags_small_card">
+            <p ><a href="#">{{tag1}}</a></p>
+            <p ><a href="#">{{tag2}}</a></p>
+            <p ><a href="#">{{ tag3 }}</a></p>
+        </div>
+    </div>
+</div>

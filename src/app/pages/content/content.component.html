@@ -1,0 +1,16 @@
+<div class="container_content">
+    <img src="{{ Photo }}" alt="content image">
+    <a [routerLink]="['']"><< voltar</a>
+    <div class="content_body">
+        <div class="text_content">
+        <h3><a href="#" >{{ title }}</a></h3>
+        <div class="tags_content">
+            <p ><a href="#">{{tag1}}</a></p>
+            <p ><a href="#">{{tag2}}</a></p>
+            <p ><a href="#">{{ tag3 }}</a></p>
+        </div>
+        <p><a [routerLink]="['content', Id]">{{ description}}</a></p>
+        </div>
+        
+    </div>
+</div>

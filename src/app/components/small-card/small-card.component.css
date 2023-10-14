@@ -1,0 +1,51 @@
+.small-card{
+    height: 30rem;
+    width: 100%;
+    margin:3% 0% 1% 0%;
+}
+
+.small-card img{
+    height: 16rem;
+    width: 100%;
+    border: .15rem solid black;
+}
+
+.small_card_body{
+    background-color:rgb(241, 241, 241);
+    height:13rem;
+}
+
+.text_small_card{
+    margin:2% 2% 5% 4%; 
+}
+
+.text_small_card a{
+    text-decoration: none;
+    color: black;
+    margin-bottom: 1%;
+    text-align: justify;
+}
+
+.text_small_card h3{
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.tags_small_card{
+    margin:2% 2% 5% 2%;
+    display: flex;
+    flex-direction: row;
+    gap: .15rem;
+    align-items: end;
+}
+
+.tags_small_card p a{
+    border:0.15rem solid black;
+    padding: .4rem;
+    border-radius: .9rem;
+    text-decoration: none;
+    color: black;
+    background-color: lightgrey;
+    margin-bottom: .5rem;
+    text-align: justify;
+}

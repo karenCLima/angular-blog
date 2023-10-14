@@ -1,0 +1,52 @@
+.menu_bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    padding-left: 6rem;
+    padding-right: 4rem;
+    margin-bottom: 1.2rem;
+}
+
+.options_menu{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    
+}
+
+.logo img{
+    height:3rem;
+    border-radius: 50%;
+
+}
+
+.options_menu ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.9rem;
+}
+
+.options_menu li a{
+    text-decoration: none;
+    color: black;
+}
+
+.buttons_menu{
+    padding: .7rem .7rem .7rem .7rem;
+    border: .15rem solid black;
+    border-radius: 13%;
+    font-weight: bold;
+}
+
+.login{
+    background-color: white;
+    color: black;
+}
+
+.signup{
+    background-color: black;
+    color: white;
+}
